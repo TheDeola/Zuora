@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+/* screen responsiveness starts here */
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(1, 19, 9);
+    }
+  }
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: rgb(127, 246, 255);
+    }
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: rgb(225, 127, 255);
+    }
+}
